@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/5.jpg") top center;
+  background: url("../img/6.jpg") top center;
   background-size: cover;
 }
 
@@ -419,6 +419,40 @@ section {
 }
 
 .skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #149ddd;
+}
+/*--------------------------------------------------------------
+# Love
+--------------------------------------------------------------*/
+.love .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.love .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+
+.love .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.love .progress-bar-wrap {
+  background: #dce8f8;
+}
+
+.love .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
